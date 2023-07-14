@@ -1,5 +1,3 @@
-const BOT_TOKEN = '6110392879:AAGBS0FUhYiKi4GhlW-AXyFX876D_tFQufg';
-const CHAT_ID = '1631819640';
 
 function sendTelegramNotification(message) {
   const url = `https://api.telegram.org/bot${BOT_TOKEN}/sendMessage`;
